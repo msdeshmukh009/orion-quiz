@@ -1,0 +1,29 @@
+/*** Style-for-rules ***/
+.rule-container {
+  width: 50%;
+  margin: var(--xxl-space) auto;
+  padding: var(--lg-space);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: var(--xl-space);
+  border: 2px solid var(--primary-color);
+  border-radius: 30px;
+}
+.rule-list {
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--xl-space);
+  justify-content: center;
+  align-items: center;
+}
+/*******/
+
+/*** media query ***/
+@media only screen and (max-width: 750px) {
+  .rule-container {
+    width: 90%;
+  }
+}
+/*******/
