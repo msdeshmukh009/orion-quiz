@@ -1,0 +1,29 @@
+/*** profile-container ***/
+.profile-container {
+  width: 50%;
+  max-width: 1000px;
+  min-height: calc(100vh - 190px);
+  margin: auto;
+  padding: var(--xl-space);
+  row-gap: var(--xl-space);
+}
+/*******/
+.profile-info {
+  height: 100%;
+  padding: var(--sm-space);
+  column-gap: var(--md-space);
+}
+.details {
+  width: 15rem;
+  row-gap: var(--sm-space);
+}
+.info {
+  width: 100%;
+  justify-content: space-between;
+}
+.info span {
+  flex-grow: 1;
+}
+.profile-cta {
+  padding: var(--sm-space);
+}
