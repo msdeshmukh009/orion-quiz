@@ -1,4 +1,5 @@
 @import url(/pages/auth-pages/auth.css);
+@import url(/pages/profile/profile.css);
 @font-face {
   font-family: "ultraregular";
   src: url("/fonts/ultra.woff") format("woff2"), url("/fonts/ultra.woff") format("woff");
