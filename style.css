@@ -91,17 +91,16 @@
 
 /*** style-for-quiz-display ***/
 .quiz-display-container {
+  min-height: calc(100vh - 200px);
   padding: var(--xl-space);
   display: flex;
   column-gap: var(--lg-space);
   row-gap: var(--lg-space);
   flex-wrap: wrap;
+  align-items: flex-start;
 }
-.quiz-display-container ~ .footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+.quiz-display-container .card {
+  min-height: 19rem;
 }
 /*******/
 
